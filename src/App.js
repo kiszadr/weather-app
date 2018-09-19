@@ -44,7 +44,7 @@ class App extends Component {
     )
     .catch(
       err => {
-        // console.error(err);
+        // logic when request to API throws error
       }
     );
   }
