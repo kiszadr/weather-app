@@ -1,0 +1,56 @@
+body {
+  background-color: #eee;
+}
+
+.app__title {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.app__time {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.app__timeText {
+  margin-right: 15px;
+}
+
+.weatherCart {
+  max-width: 350px;
+  min-height: 200px;
+  background-color: #c2c2c2;
+  margin: 0 auto 25px;
+  border-radius: 15px;
+  padding: 15px;
+  -webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.4);
+}
+
+.weatherCart__title {
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.weatherCart__marginLeft {
+  margin-left: 15px;
+}
+
+.weatherCart__icon {
+  height: 50px;
+  width: 50px;
+}
+
+.weatherSection__toggle {
+  font-size: 14px;
+  float: right;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.weatherSection__toggle::after {
+  clear: both;
+}
